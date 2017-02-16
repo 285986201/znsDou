@@ -10,6 +10,6 @@ jsonp({
 })  
 ***  
 # 正则： -操作字符串
-       - str.replace()  -替换  
-       - str.split()  -切割
+       * str.replace()  -替换
+       * str.split()  -切割
        
