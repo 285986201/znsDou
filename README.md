@@ -1,2 +1,13 @@
-# znsDou
-原生笔记整理
+# znsDou  原生JS学习整理
+cookie、模块化（seajs/requirejs）、ajax、jsonp
+jsonp本质：函数的调用
+>jsonp({
+        url:'',
+        data:{
+        },
+        cbName:'',
+        success:function() {
+          
+        }
+})
+***
