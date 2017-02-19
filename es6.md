@@ -8,16 +8,16 @@ BOM
 ECMA  解决编程语言的规范  
     ECMA- 262  --->> ECMAScript  
 ECMAScript
-       > 1996 ES1.0 Netscape将js提交给ECMA组织， ES正式出现
-       > 1998年6月，ECMAScript 2.0版发布。
-       > 1999年12月，ECMAScript 3.0版发布，成为JavaScript的通行标准，得到了广泛支持。
-       > 2007年10月，ECMAScript 4.0版草案发布，对3.0版做了大幅升级，预计次年8月发布正式版本。草案发布后，由于4.0版的目标过于激进，各方对于是否通过这个标准，发生了严重分歧
-       > 2008年7月，ECMA开会决定，中止ECMAScript 4.0的开发，将其中涉及现有功能改善的一小部分，发布为ECMAScript 3.1，而将其他激进的设想扩大范围，放入以后的版本，由于会议的气氛，该版本的项目代号起名为Harmony（和谐）。会后不久，ECMAScript 3.1就改名为ECMAScript 5。
-       > 2009年12月，ECMAScript 5.0版正式发布。Harmony项目则一分为二，一些较为可行的设想定名为JavaScript.next继续开发，后来演变成ECMAScript 6；一些不是很成熟的设想，则被视为JavaScript.next.next，在更远的将来再考虑推出。
-       > 2011年6月，ECMAscript 5.1版发布，并且成为ISO国际标准（ISO/IEC 16262:2011）。
-       > 2013年3月，ECMAScript 6草案冻结，不再添加新功能。新的功能设想将被放到ECMAScript 7。
-       > 2013年12月，ECMAScript 6草案发布。然后是12个月的讨论期，听取各方反馈。
-       > 2015年6月17日，ECMAScript 6发布正式版本，即ECMAScript 2015。
+       > 1996 ES1.0 Netscape将js提交给ECMA组织， ES正式出现  
+       > 1998年6月，ECMAScript 2.0版发布。  
+       > 1999年12月，ECMAScript 3.0版发布，成为JavaScript的通行标准，得到了广泛支持。  
+       > 2007年10月，ECMAScript 4.0版草案发布，对3.0版做了大幅升级，预计次年8月发布正式版本。草案发布后，由于4.0版的目标过于激进，各方对于是否通过这个标准，发生了严重分歧  
+       > 2008年7月，ECMA开会决定，中止ECMAScript 4.0的开发，将其中涉及现有功能改善的一小部分，发布为ECMAScript 3.1，而将其他激进的设想扩大范围，放入以后的版本，由于会议的气氛，该版本的项目代号起名为Harmony（和谐）。会后不久，ECMAScript 3.1就改名为ECMAScript 5。  
+       > 2009年12月，ECMAScript 5.0版正式发布。Harmony项目则一分为二，一些较为可行的设想定名为JavaScript.next继续开发，后来演变成ECMAScript 6；一些不是很成熟的设想，则被视为JavaScript.next.next，在更远的将来再考虑推出。  
+       > 2011年6月，ECMAscript 5.1版发布，并且成为ISO国际标准（ISO/IEC 16262:2011）。  
+       > 2013年3月，ECMAScript 6草案冻结，不再添加新功能。新的功能设想将被放到ECMAScript 7。  
+       > 2013年12月，ECMAScript 6草案发布。然后是12个月的讨论期，听取各方反馈。  
+       > 2015年6月17日，ECMAScript 6发布正式版本，即ECMAScript 2015。  
 ***
 ES5和ES6只是为了兼容高级浏览器，有一些ES6的东西高级浏览器也不兼容
 ##1、在线兼容编辑器  
