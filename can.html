@@ -13,7 +13,29 @@
 		}
 	</style>
 	<script>
-		
+		window.onload = function () {
+			let oC = document.getElementById('c1');
+			let gd = oC.getContext('2d');
+
+			let W = oC.width, H = oC.height;
+
+			//获取
+			let imgData = gd.getImageData(0,0,W,H);
+
+			//x=100,y=100,w=300,h=250
+
+			for (let x=100; x<400; x++) {
+				for (let y = 100; y<350; y++) {
+					imgData.data[4*(y*W+x)] = 0;
+					imgData.data[4*(y*W+x)+1] = 0;
+					imgData.data[4*(y*W+x)+2] = 0;
+					imgData.data[4*(y*W+x)+3] =255;
+				}
+			}
+
+			//设置
+			gd.putImageData(imgData, 0, 0);
+		};
 	</script>
 </head>
 <body>
