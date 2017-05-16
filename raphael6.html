@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <script src="raphael.js" charset="utf-8"></script>
+	<script>
+			window.onload = function () {
+				//1、创建画布
+				var p = Raphael(0,0,800,600);
+
+				//2.创建图形
+				p.circle(400,300,100)
+				.attr('fill', 'green')
+				.attr('stroke', 'red')
+				.click(function () {
+					this.animate({cx:600}, 700, 'back-out');
+				});
+			};
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

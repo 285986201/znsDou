@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#l1 {
+			stroke:red; stroke-width:20;
+		}
+	</style>
+	<script>
+		window.onload = function () {
+			let oL = document.getElementById('l1');
+			alert(getComputedStyle(oL, false).stroke);
+		};
+	</script>
+</head>
+<body>
+	<svg width="800" height="600">
+		<line x1="100" y1="100" x2="300" y2="300" id="l1" />
+	</svg>
+</body>
+</html>

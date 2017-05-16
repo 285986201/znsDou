@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#l1 {
+			stroke: red;
+			stroke-width: 20;
+			transition: 1s all ease;
+		}
+		#l1:active {
+			stroke: yellow;
+		}
+	</style>
+</head>
+<body>
+	<svg width="800" height="600">
+		<line x1="100" y1="100" x2="300" y2="300" id="l1" onclick="this.setAttribute('x1', 300);" />
+	</svg>
+</body>
+</html>
