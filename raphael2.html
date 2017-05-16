@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="raphael.js"></script>
+	<script>
+		window.onload = function () {
+			//1、创建画布
+			var p =Raphael(0,0,800,600);
+
+			//2、创建图形
+			p.rect(100,100,300,200).attr('fill', 'yellow').click(function () {
+				this.attr('fill', 'blue');
+			});
+		};
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

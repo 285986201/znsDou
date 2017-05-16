@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <script src="raphael.js" charset="utf-8"></script>
+	<script>
+			window.onload = function () {
+				//1、创建画布
+				var p = Raphael(0,0,800,600);
+
+				//2.创建图形
+				var path = p.path();
+
+				path.attr('path', 'M 100,100 L 300,100 L 300,300 Z');
+			};
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

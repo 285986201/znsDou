@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="raphael.js"></script>
+	<script>
+	window.onload = function () {
+		//1.创建画布
+		var p = Raphael(0,0,800,600);
+
+		//2、创建图形
+		var cir = p.circle(400,300,100);
+
+		//3、样式
+		//cir.attr('fill', 'green').attr('stroke', 'red');
+		cir.attr({fill:'green', stroke:'red'});
+
+		//4.事件
+		// cir.click(function () {
+		// 	alert('abc');
+		// });
+		// cir.hover(function () {
+		// 	cir.attr('fill', 'yellow');
+		// }, function (){
+		// 	cir.attr('fill', 'green');
+		// })
+	};
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

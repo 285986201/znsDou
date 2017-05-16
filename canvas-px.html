@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body {
+			background: black; text-align: center;
+		}
+		#c1 {
+			background: white;
+		}
+
+	</style>
+	<script>
+		window.onload = function () {
+			let oC = document.getElementById('c1');
+			let gd = oC.getContext('2d');
+
+			let W = oC.width, H = oC.height;
+
+			//获取
+			let imgDate = gd.getImageData(0,0,W,H);
+
+			for (let x = 0; x < 800; x++) {
+
+				for (let y = 0; y<600; y++) {
+					//越往右越红
+					imgDate.data[4*(y*W+x)] = 255*x/W;
+
+					//越往下越绿
+					imgDate.data[4*(y*W+x)+1] = 255*y/H;
+
+					//越往右越蓝
+					imgDate.data[4*(y*W+x)+2] = 255*x/W;
+
+					imgDate.data[4*(y*W+x)+3] =255;
+				}
+			}
+			//设置
+			gd.putImageData(imgDate, 0, 0);
+		};
+	</script>
+</head>
+<body>
+	<canvas id="c1" width="800" height="600"></canvas>
+</body>
+</html>
